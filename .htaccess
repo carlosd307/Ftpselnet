@@ -1,0 +1,33 @@
+Options +Indexes
+
+IndexOptions +FancyIndexing
+
+IndexOptions +FoldersFirst
+
+IndexOptions +XHTML
+
+IndexOptions +SuppressRules
+
+IndexIgnore .htaccess /styling
+
+HeaderName /styling/header.html
+
+ReadmeName /styling/footer.html
+
+IndexStyleSheet "/styling/style.css"
+
+DefaultIcon /styling/icons/logoicon.png
+
+AddIcon /styling/icons/blank.gif ^^BLANKICON^^
+
+AddIcon /styling/icons/dir.png ^^DIRECTORY^^
+
+AddIcon /styling/icons/back.png ..
+
+AddIcon /styling/icons/image.png .jpg .png .gif .tif .tiff
+
+AddIcon /styling/icons/java.png .java
+
+AddIcon /styling/icons/php.png .php
+
+AddIcon /styling/icons/js.png .js
