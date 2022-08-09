@@ -50,6 +50,9 @@ transition: .5s;
 
 }
 
+.navbar-light{
+  display: none;
+}
 .text-dar{
     color: #707070;
 }
@@ -205,5 +208,187 @@ padding-left: 50px;
   }
 
 
+
+
 }
+
+/*------------------------------------------------------------------------------------------------------------
+                                   respondive_tamaño_celu
+-------------------------------------------------------------------------------------------------------------*/
+/*inicioMediaQueries*/
+@media (max-width : 548px){
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+nav.bg-danger11{
+  display: none;
+}
+
+
+footer {
+  width: 100%;
+      height: 35%;
+      margin-top: 100px;
+       grid-area: pie;
+       background-color: rgb(75, 75, 75);
+       text-align: center;
+       text-decoration: solid;
+       color: #D9D9D9;
+   
+   }
+   
+  .footerindex{
+  
+    width: 100%;
+     height: 100px;
+      margin-top: 100px;
+       grid-area: pie;
+       background-color: rgb(75, 75, 75);
+       text-align: center;
+       text-decoration: solid;
+       color: #D9D9D9;
+  }
+
+
+.imgredes{
+  width: 30px;
+}
+
+
+  /*titulosindex*/
+
+  .tituloindex{
+    color: #960409;
+    text-decoration: solid ;
+   
+  }
+  
+  .subtituloindex{
+    color: dimgray;
+
+  }
+
+/*color_caja_index*/
+.colordecaja{
+  background-color:  #D9D9D9;
+  height: 300px;
+
+}
+
+.imagendescarga{
+display: none;
+
+}
+.productoshik{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.imgvivo{
+  width: 180px;
+}
+
+
+
+  /*logos_marcas_confi*/
+
+  .logosconfi{
+    width: 310px;
+ 
+    padding-top: 50px;
+      }
+    
+      .confi_logos{
+        display: flex;
+        flex-direction: column;
+      justify-content: flex-start;
+      }
+    
+      .productos_logos{
+        padding-left: 25px;
+      }
+    
+    
+      .productos_logos a :hover {
+        transform: translateY(-5%);
+    
+      }
+
+
+}
+
+/*------------------------------------------------------------------------------------------------------------
+                                   respondive_tamaño_tablet
+-------------------------------------------------------------------------------------------------------------*/
+@media ( min-width :549px) and ( max-width :991px) {
+
+  nav.bg-danger11{
+    display: none;
+  }
+  
+  
+  footer {
+    width: 100%;
+        height: 35%;
+        margin-top: 100px;
+         grid-area: pie;
+         background-color: rgb(75, 75, 75);
+         text-align: center;
+         text-decoration: solid;
+         color: #D9D9D9;
+     
+     }
+     
+    .footerindex{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+       height: 100px;
+        margin-top: 100px;
+         grid-area: pie;
+         background-color: rgb(75, 75, 75);
+         text-align: center;
+         text-decoration: solid;
+         color: #D9D9D9;
+    }
+  
+  
+  .imgredes{
+    width: 30px;
+  }
+  
+  
+    /*titulosindex*/
+  
+    .tituloindex{
+      color: #960409;
+      text-decoration: solid ;
+     
+    }
+    
+    .subtituloindex{
+      color: dimgray;
+  
+    }
+  
+  /*color_caja_index*/
+  .colordecaja{
+    background-color:  #D9D9D9;
+    height: 300px;
+  
+  }
+  
+  .imagendescarga{
+position: relative;
+bottom: 300px;
+left:300px;
+  
+  }
+
+}
+
 
